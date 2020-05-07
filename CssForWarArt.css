@@ -1,0 +1,126 @@
+* { padding: 0; margin: 0; }
+html, body{
+	height: auto;
+}
+body {background: linear-gradient(to bottom, #392828 12.93%, #1F1616 99.76%) no-repeat;}
+::-webkit-scrollbar {
+
+width: 0px;
+
+}
+.w {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+}
+
+.textForTop {
+    position: absolute;
+    padding: 88px 1190px;
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 125px;
+    line-height: 100%;
+    letter-spacing: 0.065em;
+
+color: #EFEFEF;
+}
+
+.topnav {
+    background-color: rgba(0, 0, 0, 0.64);
+    overflow: hidden;
+    font-family: 'Kurale';
+    position: absolute;
+    margin-top: 256px;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+
+}
+#pointer{
+	    cursor: pointer;
+}
+
+.StandartArticle{
+	font-family: 'Kurale';
+	color: #D1D1D1;
+	padding: 8px 15px;
+	background: #392828;
+	margin: 15px 20px;
+	margin-left: 60px;
+	width: 700px;
+	font-size: 22px;
+}
+
+.StandartArticle img{
+	padding: 12px 0px;
+    width: 700px;
+    height: 400px;
+}
+
+.Button{
+    margin:8px 0px;
+    display: inline-block;
+    background: rgba(206, 66, 66, 0.82);
+    color: #fff; 
+    padding:7px 6px; 
+    text-decoration: none; 
+    border-radius: 8px ; 
+}
+
+.Tags{
+    width: auto;
+    height: auto;
+    border: 1px solid #D1D1D1;
+    text-align: center;
+    font-family: El Messiri;
+    padding: 10px;
+    margin: 23px 0px 20px;
+    margin-left: 28px;
+    font-size: 17px;
+    line-height: 100%;
+    color: #D1D1D1;
+    display: inline-block;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.56);
+}
+
+#Autor{
+	font-family: 'Kurale';
+	color: #D1D1D1;
+	font-size: 24px;
+	margin-left: 160px;
+
+}
+
+.Article{
+	font-family: 'Kurale';
+	color: #D1D1D1;
+	font-size: 22px;
+	margin-left: 60px;
+	width: 900px;
+
+}
+.Article img{
+	margin: 20px 30px;
+	height: 600px;
+	width: 900px;
+}
+
+.Hr{
+	border-bottom: 1px solid #FDFDFD;
+	width: 70%;
+	margin: 5px auto 5px;
+	margin-left: 150px;
+}
