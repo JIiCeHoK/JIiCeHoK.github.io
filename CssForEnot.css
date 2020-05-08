@@ -1,0 +1,70 @@
+* { padding: 0; margin: 0; }
+html, body{height: auto;}
+body{
+   background-image: url(Image/white-paper.png); /* Путь к фоновому рисунку */
+   background-position: left bottom; /* Положение фона */
+   background-repeat: repeat;
+   font-family: 'Jost', sans-serif;
+   color: #5B5B5B;
+}
+
+.Fon {
+	height: 480px;
+	width: 760px;
+	display:block;
+    margin:auto;
+
+}
+
+.Box{
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+    display:block;
+    margin:auto;
+    background-color: white;
+    height: 100%;
+	width: 760px;
+}
+
+.ForText{
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+.Menu{
+	padding-left: 12px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.Menu:hover {
+	color: #6c03ef;
+	cursor: pointer;
+}
+
+.Menu:active{
+	color: #6c03ef;
+}
+
+.MenuImg {
+	width: 200px;
+	height:150px;
+	padding: 0 8px;
+	padding-top: 10px;
+	object-fit: cover;
+	transition: 0.5s;
+}
+
+.MenuImg:hover {
+	transform: scale(1.2);
+}
+
+.Avatar{
+	width: 200px; 
+	height: 300px; 
+	object-fit: cover;
+	padding-left: 25px;
+	float: left;
+	padding-right: 58px;
+	transform: scale(-1, 1);
+}
