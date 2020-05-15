@@ -1,13 +1,13 @@
 * { padding: 0; margin: 0; }
 html, body{
-	height: auto;
+	height:2200px;
 }
 body {background: linear-gradient(to bottom, #392828 12.93%, #1F1616 99.76%) no-repeat;}
+
 ::-webkit-scrollbar {
-
 width: 0px;
-
 }
+
 .w {
     object-fit: cover;
     width: 100%;
@@ -70,7 +70,7 @@ color: #EFEFEF;
     height: 400px;
 }
 
-.Button{
+.ButtonRead{
     margin:8px 0px;
     display: inline-block;
     background: rgba(206, 66, 66, 0.82);
@@ -116,11 +116,25 @@ color: #EFEFEF;
 	margin: 20px 30px;
 	height: 600px;
 	width: 900px;
+    transition: 0.5s;
+    object-fit: cover;
 }
+
 
 .Hr{
 	border-bottom: 1px solid #FDFDFD;
 	width: 70%;
 	margin: 5px auto 5px;
 	margin-left: 150px;
+}
+
+#arrowUp {
+    position: fixed;
+    right: 10px; bottom: 10px;
+    font-size: 48px;
+}
+#arrowUp a {
+    text-decoration: none;
+    color: #D1D1D1;
+    font-weight: bold;
 }
